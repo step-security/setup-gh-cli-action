@@ -1,6 +1,5 @@
 # Setup GH CLI Action
 
-[![Tests](https://github.com/step-security/setup-gh-cli-action/actions/workflows/tests.yml/badge.svg)](https://github.com/step-security/setup-gh-cli-action/actions/workflows/tests.yml)
 
 A GitHub action that installs or updates the `gh` CLI.
 
