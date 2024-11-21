@@ -1,0 +1,47 @@
+{
+  "name": "setup-gh-cli-action",
+  "version": "2.0.0",
+  "description": "Installs or updates the GitHub CLI.",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "pack": "rm -rf dist && ncc build lib/main.js -o dist --license license.txt --target es2022"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sersoft-gmbh/setup-gh-cli-action.git"
+  },
+  "keywords": [
+    "CLI",
+    "GitHub"
+  ],
+  "author": "ser.soft GmbH",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sersoft-gmbh/setup-gh-cli-action/issues"
+  },
+  "homepage": "https://github.com/sersoft-gmbh/setup-gh-cli-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/tool-cache": "^2.0.1",
+    "@octokit/rest": "^21.0.2",
+    "axios": "^1.7.7",
+    "semver": "^7.6.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.17.6",
+    "@types/semver": "^7.5.8",
+    "@vercel/ncc": "^0.38.3",
+    "typescript": "^5.6.3"
+  }
+}
