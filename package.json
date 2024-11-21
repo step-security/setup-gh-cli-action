@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/step-securityh/setup-gh-cli-action.git"
+    "url": "git+https://github.com/step-security/setup-gh-cli-action.git"
   },
   "keywords": [
     "CLI",
@@ -25,9 +25,9 @@
   "author": "ser.soft GmbH",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/step-securityh/setup-gh-cli-action/issues"
+    "url": "https://github.com/step-security/setup-gh-cli-action/issues"
   },
-  "homepage": "https://github.com/step-securityh/setup-gh-cli-action#readme",
+  "homepage": "https://github.com/step-security/setup-gh-cli-action#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/exec": "^1.1.1",

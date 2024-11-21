@@ -22,7 +22,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-securityh/setup-gh-cli-action@main
+      - uses: step-security/setup-gh-cli-action@main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:
@@ -67,7 +67,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-securityh/setup-gh-cli-action@main
+      - uses: step-security/setup-gh-cli-action@main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:
@@ -106,7 +106,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-securityh/setup-gh-cli-action@main
+      - uses: step-security/setup-gh-cli-action@main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:

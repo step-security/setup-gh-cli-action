@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: step-securityh/running-release-tags-action@v3
+      - uses: step-security/running-release-tags-action@v3
         with:
           update-full-release: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
