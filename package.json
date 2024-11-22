@@ -22,7 +22,7 @@
     "CLI",
     "GitHub"
   ],
-  "author": "ser.soft GmbH",
+  "author": "step-security",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/step-security/setup-gh-cli-action/issues"

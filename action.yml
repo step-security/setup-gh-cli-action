@@ -1,6 +1,6 @@
 name: Setup GitHub CLI
 description: Installs or updates the GitHub CLI (gh)
-author: ser.soft GmbH
+author: step-security
 inputs:
   version:
     description: The `gh` version to install. Can also be set to `latest` to install the latest available version (including prereleases), or `stable` to install the latest stable release.
