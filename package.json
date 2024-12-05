@@ -33,7 +33,7 @@
     "@actions/exec": "^1.1.1",
     "@actions/tool-cache": "^2.0.1",
     "@octokit/rest": "^21.0.2",
-    "axios": "^1.7.7",
+    "axios": "^1.7.9",
     "semver": "^7.6.3",
     "ts-node": "^10.9.2"
   },
