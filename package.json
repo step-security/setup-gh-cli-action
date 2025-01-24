@@ -16,32 +16,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/step-security/setup-gh-cli-action.git"
+    "url": "git+https://github.com/sersoft-gmbh/setup-gh-cli-action.git"
   },
   "keywords": [
     "CLI",
     "GitHub"
   ],
-  "author": "step-security",
+  "author": "ser.soft GmbH",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/step-security/setup-gh-cli-action/issues"
+    "url": "https://github.com/sersoft-gmbh/setup-gh-cli-action/issues"
   },
-  "homepage": "https://github.com/step-security/setup-gh-cli-action#readme",
+  "homepage": "https://github.com/sersoft-gmbh/setup-gh-cli-action#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/exec": "^1.1.1",
-    "@actions/tool-cache": "^2.0.1",
-    "@octokit/rest": "^21.0.2",
-    "axios": "^1.7.7",
-    "semver": "^7.6.3",
-    "ts-node": "^10.9.2"
+    "@actions/tool-cache": "^2.0.2",
+    "@octokit/rest": "^21.1.0",
+    "semver": "^7.6.3"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.17.6",
+    "@types/node": "^20.17.15",
     "@types/semver": "^7.5.8",
     "@vercel/ncc": "^0.38.3",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.3"
   }
 }
