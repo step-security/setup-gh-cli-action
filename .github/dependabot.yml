@@ -26,3 +26,13 @@ updates:
       - ffried
     reviewers:
       - ffried
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /dist
+    schedule:
+      interval: daily
