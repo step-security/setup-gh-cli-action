@@ -6,9 +6,6 @@ on:
       tag:
         description: "Tag for the release"
         required: true
-      script:
-        required: false
-        default: "npm run pack"
 
 permissions:
   contents: read
@@ -22,4 +19,3 @@ jobs:
     uses: step-security/reusable-workflows/.github/workflows/actions_release.yaml@v1
     with:
       tag: "${{ github.event.inputs.tag }}"
-      script: ${{ inputs.script }}
