@@ -11,9 +11,9 @@ on:
         description: "Specify a base branch"
         required: false
         default: "main"
-      script:
-        required: false
-        default: "npm run pack"
+
+  schedule:
+    - cron: "0 0 * * 1"
 
 jobs:
   audit-fix:
@@ -21,8 +21,6 @@ jobs:
     with:
       force: ${{ inputs.force || false }}
       base_branch: ${{ inputs.base_branch || 'main' }}
-      script: ${{ inputs.script || 'npm run pack"' }}
-
 
 permissions:
   contents: write
