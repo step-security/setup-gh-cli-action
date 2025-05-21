@@ -14,6 +14,8 @@ on:
       script:
         required: false
         default: "npm run build && npm run pack"
+  schedule:
+    - cron: "0 0 * * 1"
 
 jobs:
   audit-fix:
