@@ -11,6 +11,9 @@ on:
         required: false
         default: "npm run pack"
 
+  schedule:
+    - cron: "0 0 * * 1"
+
 permissions:
   contents: write
   pull-requests: write
