@@ -8,7 +8,7 @@ on:
         required: true
       script:
         required: false
-        default: "npm run pack"
+        default: "npm run build && npm run pack"
 
 permissions:
   contents: read
