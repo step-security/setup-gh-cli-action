@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   test-specific-version:
     name: Test Specific Version
@@ -23,7 +27,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@v5
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
@@ -73,7 +77,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@v5
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
@@ -117,7 +121,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@v5
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
