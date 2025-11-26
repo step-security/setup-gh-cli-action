@@ -18,7 +18,7 @@ Use this if you hit rate limits.
 
 ## Outputs
 
-### `full-version`
+### `installed-version`
 
 The full version was installed.
 
