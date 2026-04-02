@@ -31,7 +31,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-security/setup-gh-cli-action@911a1ad924338cbaed4af8b5f982b605345abb46 # main
+      - uses: step-security/setup-gh-cli-action@44ed3904e30498a8ea98233ac1015af0b0cb1fd4 # main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:
@@ -81,7 +81,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-security/setup-gh-cli-action@911a1ad924338cbaed4af8b5f982b605345abb46 # main
+      - uses: step-security/setup-gh-cli-action@44ed3904e30498a8ea98233ac1015af0b0cb1fd4 # main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:
@@ -125,7 +125,7 @@ jobs:
       - name: Generate action code
         if: ${{ github.event_name == 'pull_request' }}
         uses: ./.github/actions/generate-action-code
-      - uses: step-security/setup-gh-cli-action@911a1ad924338cbaed4af8b5f982b605345abb46 # main
+      - uses: step-security/setup-gh-cli-action@44ed3904e30498a8ea98233ac1015af0b0cb1fd4 # main
         if: ${{ github.event_name == 'push' }}
         id: install-gh-main
         with:
