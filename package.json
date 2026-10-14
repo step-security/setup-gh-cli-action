@@ -38,7 +38,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@tsconfig/node24": "^24.0.1",
+    "@tsconfig/node24": "^24.0.4",
     "@types/node": "^24.10.0",
     "@types/semver": "^7.7.1",
     "@vercel/ncc": "^0.38.4",
